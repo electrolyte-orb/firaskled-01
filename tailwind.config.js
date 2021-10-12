@@ -9,7 +9,7 @@ module.exports = {
       sans: ['Inter', 'system-ui', 'sans-serif']
     },
     extend: {
-      active: ['background', 'shadow'],
+      active: [],
       colors: {
         orange: colors.orange
       }

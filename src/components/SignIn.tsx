@@ -64,6 +64,30 @@ export default function SignIn() {
           </p>
         </div>
       </div>
+
+      <div className="p-4 border-t-2 bg-gray-200 border-gray-300 text-gray-600 mt-10 flex">
+        <div className="w-full">
+          <div>
+            <p className="text-xs uppercase">A project by</p>
+            <a
+              href="https://github.com/electrolyte-orb"
+              className="font-bold active:text-blue-500"
+            >
+              Electrolyte Orb
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://github.com/electrolyte-orb/firaskled-01"
+              className="active:text-blue-500 mt-2 uppercase text-xs underline"
+            >
+              Checkout Source
+            </a>
+          </div>
+        </div>
+
+        <div>hellow orld</div>
+      </div>
     </div>
   );
 }
