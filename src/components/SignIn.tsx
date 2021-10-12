@@ -10,17 +10,21 @@ export default function SignIn() {
   return (
     <div>
       <Navbar />
-      <h1 className="font-extrabold text-4xl text-center m-8 leading-tight tracking-tighter">
+
+      <h1 className="font-extrabold text-4xl text-center leading-tight m-8 tracking-tighter">
+        <p className="font-normal tracking-widest uppercase text-xs mb-4">
+          Meant for performance
+        </p>
         A production <br /> grade hangout <br /> platform.
       </h1>
-      <div className="m-4 text-gray-500">
-        <div className="text-center">
-          <Button variant="primary" size="xl">
-            Sign In
-          </Button>
-        </div>
+      <div className="text-center">
+        <Button variant="primary" size="xl">
+          Sign In
+        </Button>
+      </div>
 
-        <div className="bg-white p-6 rounded-xl mt-16">
+      <div className="grid mt-16 border-t-2 border-b-2 border-gray-300 gap-0.5">
+        <div className="bg-white p-6">
           <span className="p-2 bg-green-500 text-white rounded-full inline-block">
             <LockClosedIcon className="h-4" />
           </span>
@@ -34,7 +38,7 @@ export default function SignIn() {
           </p>
         </div>
 
-        <div className="bg-white p-6 rounded-xl mt-4">
+        <div className="bg-white p-6">
           <span className="p-2 bg-orange-500 text-white rounded-full inline-block">
             <LightningBoltIcon className="h-4" />
           </span>
@@ -49,7 +53,7 @@ export default function SignIn() {
           </p>
         </div>
 
-        <div className="bg-white p-6 rounded-xl mt-4">
+        <div className="bg-white p-6">
           <span className="p-2 bg-purple-500 text-white rounded-full inline-block">
             <TerminalIcon className="h-4" />
           </span>
@@ -86,7 +90,14 @@ export default function SignIn() {
           </div>
         </div>
 
-        <div>hellow orld</div>
+        <div>
+          <a
+            href="https://github.com/electrolyte-orb/firaskled-01"
+            className="inline-grid bg-black focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-200 h-8 w-8 place-items-center rounded-full"
+          >
+            <img src="/GitHub-Mark-Light-32px.png" className="w-6" alt="" />
+          </a>
+        </div>
       </div>
     </div>
   );
