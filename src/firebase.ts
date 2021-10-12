@@ -1,3 +1,5 @@
+import { initializeApp } from 'firebase/app';
+
 const config = {
   apiKey: 'AIzaSyC0fw1J6ZlbjNk8LMY_pt8tU1_9gxwcd-U',
   authDomain: 'firaskled-a.firebaseapp.com',
@@ -6,3 +8,5 @@ const config = {
   messagingSenderId: '42711363792',
   appId: '1:42711363792:web:c46e794a6a0c3f6bb6aed5',
 };
+
+initializeApp(config);
